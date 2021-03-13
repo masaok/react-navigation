@@ -9,7 +9,7 @@
   "publishConfig": {
     "access": "public",
     "cache": "~/.npm",
-    "tag": "alpha"
+    "tag": "latest"
   },
   "license": "MIT",
   "repository": {
