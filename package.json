@@ -1,6 +1,5 @@
 {
   "description": "Rethinking navigation",
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/*",
@@ -9,14 +8,15 @@
   },
   "publishConfig": {
     "access": "public",
+    "cache": "~/.npm",
     "tag": "alpha"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-navigation/react-navigation.git"
+    "url": "git+https://github.com/masaok/react-navigation.git"
   },
-  "author": "Satyajit Sahoo <satyajit.happy@gmail.com> (https://github.com/satya164/), Michał Osadnik <micosa97@gmail.com> (https://github.com/osdnk/)",
+  "author": "Masao Kitamura (https://github.com/masaok/)",
   "scripts": {
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "typescript": "tsc --noEmit --composite false",
@@ -88,5 +88,15 @@
         }
       }
     }
+  },
+  "name": "@masaok/react-navigation",
+  "bugs": {
+    "url": "https://github.com/masaok/react-navigation/issues"
+  },
+  "homepage": "https://github.com/masaok/react-navigation#readme",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "directories": {
+    "example": "example"
   }
 }
